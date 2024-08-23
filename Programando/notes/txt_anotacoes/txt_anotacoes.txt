@@ -1,0 +1,11 @@
+Testando editor de notas :)
+
+Nomenclaturas
+	snake case
+		snake_case
+		nome_completo
+	camel case
+		camelCase
+		nomeCompleto
+
+

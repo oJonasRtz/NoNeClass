@@ -45,3 +45,18 @@ function	atividade3()
 	show_message(string(height1) + height2);
 	show_message(final_message);
 }
+
+function	atividade4()
+{
+	//Modulo 5/15 - criar variavel perguntando se voce eh menino(Praticar uso de variaveis booleanas)
+	//Definindo variaveis
+	show_message("Uhmm...Hey, just a quick question, ok?");
+	is_boy	= show_question("Are you a boy?");
+
+	if (is_boy)
+		show_message("Hey, you're a boy!!!");
+	else
+		show_message("Hey, you're a girl!!!");
+}
+
+
