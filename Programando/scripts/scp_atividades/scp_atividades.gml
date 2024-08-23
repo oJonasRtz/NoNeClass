@@ -50,13 +50,31 @@ function	atividade4()
 {
 	//Modulo 5/15 - criar variavel perguntando se voce eh menino(Praticar uso de variaveis booleanas)
 	//Definindo variaveis
-	show_message("Uhmm...Hey, just a quick question, ok?");
+	show_message("Uhmm...Hi, just a quick question, ok?");
 	is_boy	= show_question("Are you a boy?");
 
 	if (is_boy)
 		show_message("Hey, you're a boy!!!");
 	else
 		show_message("Hey, you're a girl!!!");
+}
+
+function	atividade5()
+{
+	/*
+		Modulo 5/17
+	
+		Pegar dados do usuario(nome, idade, estado e email)
+		exibir todos os dados em 1 show_message
+	*/
+
+	//Evitar uso da get_string() em projetos(Motivo nas anotações)
+	name	= get_string("Type your name: ", "");
+	age		= get_string("Type your age: ", "");
+	state	= get_string("Type your state", "");
+	mail	= get_string("Type your e-mail: ", "mail@mail.com");
+	
+	show_message("Hi " + name + " you're " + age + " live in " + state + " you're mail is " + mail);
 }
 
 
