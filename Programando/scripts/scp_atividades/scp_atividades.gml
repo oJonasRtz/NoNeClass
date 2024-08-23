@@ -77,4 +77,19 @@ function	atividade5()
 	show_message("Hi " + name + " you're " + age + " live in " + state + " you're mail is " + mail);
 }
 
-
+function	atividade6()
+{
+	/*
+		Modulo 5/19
+		
+		Pegar dados do usuario(Nome(get_string), idade(get_integer))
+		Mostrar dados na tela usando a função string()
+		String converte valores numericos em strings(char *)
+	*/
+	//Definindo variaveis
+	name	= get_string("Type your name: ", "");
+	age		= get_integer("Type your age: ", 0);
+	
+	//Exibe mensagem
+	show_message("Name: " + name + "\nAge: " + string(age));
+}

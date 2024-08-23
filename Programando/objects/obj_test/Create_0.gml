@@ -8,8 +8,9 @@ atividade2();
 atividade3();
 //Variavel booleana
 atividade4();
-//Uso do get_string
+//Uso do get_string() e get_integer()
 atividade5();
+atividade6();
 
 */
 

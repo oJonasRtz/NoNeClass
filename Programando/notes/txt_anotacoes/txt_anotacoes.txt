@@ -8,7 +8,7 @@ Nomenclaturas
 		camelCase
 		nomeCompleto
 
-get_string()
+get_string()/get_integer()
 	Função descontinuada
 	Funçao trava o programa, ela deve ser respondida para continuar a execução
 	Evitar uso dentro do game(apenas para testes)
@@ -19,4 +19,4 @@ environment_get_variable("USERNAME")
 	Nesse caso retorna o nome do usuario
 	Exemplo:
 		show_message("Hi " + environment_get_variable("USERNAME"));
-	
+
