@@ -19,7 +19,7 @@ function	atividade1()
 function	atividade2()
 {
 	//Modulo 5/7 - Falar em mensagens separadas: Nome, idade, altura, estado
-	show_message("Jonas Alberto Pereira");
+	show_message("Jonnas");
 	//Sempre atualiza a idade :3
 	show_message(current_year - 2001);
 	show_message(1.80);
