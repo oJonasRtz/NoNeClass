@@ -25,3 +25,23 @@ function	atividade2()
 	show_message(1.80);
 	show_message("São Paulo - Sp");
 }
+
+function	atividade3()
+{
+	//Modulo 5/9 - O mesmo que a atv 2, mas usando variaveis
+	//Definindo variaveis
+	name			= "Asteroid Destroyer";
+	age1			= current_year - 1830;	
+	age2			= " year-old";
+	state			= "São Paulo";
+	height1			= 25;
+	height2			= " cm";
+	final_message	= "Yeah, it's a cat!!!";
+
+	//Escrevendo mensagem
+	show_message(name);
+	show_message(string(age1) + age2);
+	show_message(state);
+	show_message(string(height1) + height2);
+	show_message(final_message);
+}
