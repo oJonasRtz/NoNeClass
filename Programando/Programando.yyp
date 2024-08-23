@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"sprTest","path":"sprites/sprTest/sprTest.yy",},},
+    {"id":{"name":"scpAtividades","path":"scripts/scpAtividades/scpAtividades.yy",},},
     {"id":{"name":"txtTest","path":"notes/txtTest/txtTest.yy",},},
     {"id":{"name":"objTest","path":"objects/objTest/objTest.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
