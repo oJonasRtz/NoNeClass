@@ -11,6 +11,7 @@ atividade4();
 //Uso do get_string() e get_integer()
 atividade5();
 atividade6();
+atividade7();
 
 */
 

@@ -49,7 +49,6 @@ function	atividade3()
 function	atividade4()
 {
 	//Modulo 5/15 - criar variavel perguntando se voce eh menino(Praticar uso de variaveis booleanas)
-	//Definindo variaveis
 	show_message("Uhmm...Hi, just a quick question, ok?");
 	is_boy	= show_question("Are you a boy?");
 
@@ -84,7 +83,7 @@ function	atividade6()
 		
 		Pegar dados do usuario(Nome(get_string), idade(get_integer))
 		Mostrar dados na tela usando a função string()
-		String converte valores numericos em strings(char *)
+		string() converte valores numericos em strings(char *)
 	*/
 	//Definindo variaveis
 	name	= get_string("Type your name: ", "");
@@ -92,4 +91,26 @@ function	atividade6()
 	
 	//Exibe mensagem
 	show_message("Name: " + name + "\nAge: " + string(age));
+}
+
+function	atividade7()
+{
+	/*
+		Modulo 5/22
+		
+		Pratica dos operadores aritmeticos
+	*/
+	//Valores para conta
+	num1	= get_integer("Type a number: ", 0);
+	num2	= get_integer("Type other number: ", 0);
+	
+	//Resultados
+	sum			= num1 + num2;
+	sub			= num1 - num2;
+	division	= num1 / num2;
+	mult		= num1 * num2;
+	my_mod		= num1 % num2;
+	
+	//Exibe resultado
+	show_message("Sum: " + string(sum) + "\nSubtraction: " + string(sub) + "\nDivision: " + string(division) + "\nMultiplication: " + string(mult) + "\nMod: " + string(my_mod));
 }

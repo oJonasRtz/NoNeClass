@@ -17,6 +17,7 @@ get_string()/get_integer()
 environment_get_variable("USERNAME")
 	Retorna o valor de alguma variavel no SO
 	Nesse caso retorna o nome do usuario
+	Funciona apenas no Windows, macOS e Ubuntu
 	Exemplo:
 		show_message("Hi " + environment_get_variable("USERNAME"));
 
