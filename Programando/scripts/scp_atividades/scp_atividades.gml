@@ -285,3 +285,22 @@ function	none_hotdog()
 	//Exibe saida
 	show_message(resultado);
 }
+
+function	none_hotdog2()
+{
+	/*
+		Modulo 5/45
+		
+		Mesma proposta do none_hotdog, mas se eu tiver dinheiro ou o dono vender fiado eu como hotdog
+	*/
+	//Recebendo valores
+	fome		= show_question("Voce está com fome?");
+	dinheiro	= get_integer("Quanto dinheiro vc tem: ", 0);
+	fiado		= show_question("Pedir Fiado?");
+	
+	//Comprando hotdog
+	if ((dinheiro || fiado) && fome)
+		show_message("Uhmm hotodogo!!");
+	else
+		show_message("Sem hotdogo ;(");
+}

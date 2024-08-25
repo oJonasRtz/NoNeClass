@@ -15,7 +15,8 @@ none_nota_media2();
 none_altura();
 none_idade();
 none_nota_media3();
+none_hotdog();
 
 */
 
-none_hotdog();
+none_hotdog2();
