@@ -254,3 +254,34 @@ function	none_nota_media3()
 	//Exibe a saida
 	show_message("Voce " + resultado);
 }
+
+function	none_hotdog()
+{
+	/*
+		Modulo 5/43
+		
+		Verificar se a pessoa tem fome e dinheiro suficiente para comprar um hot dog
+	*/
+	
+	//Verificações
+	/*
+		Observação:
+			Todos os valores acima de 0 são true ;)
+			Eu fiz assim apenas para teste mesmo, poderia ser usado show_question nas duas variaveis
+	*/
+	fome			= show_question("Voce esta com fome?");
+	dinheiro		= get_integer("Quanto dinheiro voce tem: ", 0);
+	
+	//Comprar hotdog
+	if (fome && dinheiro)
+		resultado = "Parabens agora voce eh proprietario de um belo cachorro quente!!!";
+	else if (dinheiro)
+		resultado = "Como vc n tem fome, vc foi pra casa e comprou jogo na steam.";
+	else if (fome)
+		resultado = "Vc foi pra casa com fome ;(";
+	else
+		resultado = "Sem fome e sem dinheiro, sem historia!!!";
+	
+	//Exibe saida
+	show_message(resultado);
+}
