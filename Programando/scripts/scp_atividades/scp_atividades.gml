@@ -146,43 +146,6 @@ function	none_contas()
 	show_message("Apos pagar suas contas voce vai ficar com R$" + string(sobra));
 }
 
-function	none_nota_media()
-{
-	/*
-		Modulo 5/26
-		
-		Pedir notas para o aluno
-		Calcular a nota media
-		Total de 4 notas
-		Exibir a nota media
-	*/
-	bim1	= get_integer("Digite a nota do primeiro bimestre: ", 0);
-	bim2	= get_integer("Digite a nota do segundo bimestre: ", 0);
-	bim3	= get_integer("Digite a nota do terceiro bimestre: ", 0);
-	bim4	= get_integer("Digite a nota do quarto bimestre: ", 0);
-	media	= (bim1 + bim2 + bim3 + bim4) / 4;
-	
-	show_message("Sua media nesse ano foi de " + string(media));
-	return (media);
-}
-
-function	none_nota_media2()
-{
-	/*
-		Modulo 5/29
-		
-		Calcular media do aluno
-		Verificar se a media é maior ou igual a media minima para ser aprovado
-	*/
-	media		= none_nota_media();
-	nota_minima = 7;
-
-	if (media >= nota_minima)
-		show_message("Parabens voce foi aprovado!!!");
-	else
-		show_message("Voce falhou com sucesso!!!");
-}
-
 function	none_altura()
 {
 	/*
@@ -228,4 +191,66 @@ function	none_idade()
 
 	//Exibe saida
 	show_message("Voce é " + fase_da_vida);
+}
+
+function	none_nota_media()
+{
+	/*
+		Modulo 5/26
+		
+		Pedir notas para o aluno
+		Calcular a nota media
+		Total de 4 notas
+		Exibir a nota media
+	*/
+	bim1	= get_integer("Digite a nota do primeiro bimestre: ", 0);
+	bim2	= get_integer("Digite a nota do segundo bimestre: ", 0);
+	bim3	= get_integer("Digite a nota do terceiro bimestre: ", 0);
+	bim4	= get_integer("Digite a nota do quarto bimestre: ", 0);
+	media	= (bim1 + bim2 + bim3 + bim4) / 4;
+	
+	show_message("Sua media nesse ano foi de " + string(media));
+	return (media);
+}
+
+function	none_nota_media2()
+{
+	/*
+		Modulo 5/29
+		
+		Calcular media do aluno
+		Verificar se a media é maior ou igual a media minima para ser aprovado
+	*/
+	media		= none_nota_media();
+	nota_minima = 7;
+
+	if (media >= nota_minima)
+		show_message("Parabens voce foi aprovado!!!");
+	else
+		show_message("Voce falhou com sucesso!!!");
+}
+
+function	none_nota_media3()
+{
+	/*
+		Modulo 5/40
+		
+		Condição para passar de ano nota 7+
+		condicao para ficar de recuperação nota >5 <7
+		Outra nota = repete de ano
+	*/
+	
+	//Recebe a media
+	media = none_nota_media();
+
+	//Verificando condições
+	if (media >= 7)
+		resultado = "foi aprovado.";
+	else if (media > 5)
+		resultado = "está de recuperação.";
+	else
+		resultado = "vai repetir de ano.";
+	
+	//Exibe a saida
+	show_message("Voce " + resultado);
 }
