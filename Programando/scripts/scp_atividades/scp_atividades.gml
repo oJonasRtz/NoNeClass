@@ -30,7 +30,7 @@ function	atividade3()
 {
 	//Modulo 5/9 - O mesmo que a atv 2, mas usando variaveis
 	//Definindo variaveis
-	name			= "Asteroid Destroyer";
+	name			= "Astroid Destroyer";
 	age1			= current_year - 1830;	
 	age2			= " year-old";
 	state			= "São Paulo";
@@ -112,7 +112,11 @@ function	atividade7()
 	my_mod		= num1 % num2;
 	
 	//Exibe resultado
-	show_message("Sum: " + string(sum) + "\nSubtraction: " + string(sub) + "\nDivision: " + string(division) + "\nMultiplication: " + string(mult) + "\nMod: " + string(my_mod));
+	show_message("Sum: " + string(sum)
+					+ "\nSubtraction: " + string(sub)
+					+ "\nDivision: " + string(division)
+					+ "\nMultiplication: " + string(mult)
+					+ "\nMod: " + string(my_mod));
 }
 
 function	atividade8()
@@ -140,5 +144,23 @@ function	atividade8()
 	//Sobra
 	sobra = receita - despesas;
 	
-	show_message("Apos pagar suas contas voce vai ficar com " + string(sobra));
+	show_message("Apos pagar suas contas voce vai ficar com R$" + string(sobra));
+}
+
+function	atividade9_nota_media()
+{
+	/*
+		Modulo 5/26
+		
+		Pedir notas para o aluno
+		Calcular a nota media
+		Total de 4 notas
+		Exibir a nota media
+	*/
+	bim1	= get_integer("Digite a nota do primeiro bimestre: ", 0);
+	bim2	= get_integer("Digite a nota do segundo bimestre: ", 0);
+	bim3	= get_integer("Digite a nota do terceiro bimestre: ", 0);
+	bim4	= get_integer("Digite a nota do quarto bimestre: ", 0);
+	
+	show_message("Sua media nesse ano fooi de " + string((bim1 + bim2 + bim3 + bim4) / 4));
 }

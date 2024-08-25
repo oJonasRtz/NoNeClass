@@ -11,10 +11,12 @@ atividade4();
 //Uso do get_string() e get_integer()
 atividade5();
 atividade6();
+//Pratica com operadores aritmeticos
 atividade7();
+atividade8();
 
 */
 
 
-atividade8();
 
+atividade9_nota_media();
