@@ -1,13 +1,13 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_room1",
+  "name": "rm_debug",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_671DBA96","path":"rooms/rm_room1/rm_room1.yy",},
+    {"name":"inst_671DBA96","path":"rooms/rm_debug/rm_debug.yy",},
   ],
   "isDnd": false,
   "layers": [

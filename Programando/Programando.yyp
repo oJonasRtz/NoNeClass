@@ -38,10 +38,10 @@
     {"id":{"name":"scp_atividades","path":"scripts/scp_atividades/scp_atividades.yy",},},
     {"id":{"name":"txt_anotacoes","path":"notes/txt_anotacoes/txt_anotacoes.yy",},},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
-    {"id":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
+    {"id":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
+    {"roomId":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

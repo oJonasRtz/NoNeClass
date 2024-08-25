@@ -313,10 +313,10 @@ function	none_hotdog3()
 		Verifica o preço do hotdog e todas as condições anteriores
 	*/
 	fome			= show_question("Voce está com fome?");
+	preco_hotdog	= 5;
 	if (fome)
 		dinheiro		= get_integer("Quanto dinheiro voce tem?", 0);
-	preco_hotdog	= 5;
-	
+
 	//Verificações
 	if (fome && (dinheiro >= preco_hotdog))
 		mensagem = "Uhmm hotodogo!!!";
