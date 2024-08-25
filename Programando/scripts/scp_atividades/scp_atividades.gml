@@ -304,3 +304,34 @@ function	none_hotdog2()
 	else
 		show_message("Sem hotdogo ;(");
 }
+
+function	none_hotdog3()
+{
+	/*
+		Modulo 5/48
+		
+		Verifica o preço do hotdog e todas as condições anteriores
+	*/
+	fome			= show_question("Voce está com fome?");
+	if (fome)
+		dinheiro		= get_integer("Quanto dinheiro voce tem?", 0);
+	preco_hotdog	= 5;
+	
+	//Verificações
+	if (fome && (dinheiro >= preco_hotdog))
+		mensagem = "Uhmm hotodogo!!!";
+	else if (fome)
+	{
+		fiado = show_question("O dogão é R$5\nPedir fiado?");
+		if (fiado)
+			mensagem = "Uhmm hotodogo gratis :)";
+		else
+			mensagem = "Sem hotodogo, vou pra casa com fome :(";
+	}
+	else
+		mensagem = "Nem tava com fome mesmo";
+		
+	//Exibe a mensagem
+	show_message(mensagem);
+}
+
