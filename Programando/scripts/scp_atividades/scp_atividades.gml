@@ -16,8 +16,7 @@ function	none_historia()
 	show_message_async("Hi, can see you now, even if is still dark in this room :3");
 }
 
-function	none_exibir_mensagens()
-{
+function	none_exibir_mensagens(){
 	//Modulo 5/7 - Falar em mensagens separadas: Nome, idade, altura, estado
 	show_message("Jonnas");
 	//Sempre atualiza a idade :3
@@ -177,9 +176,27 @@ function	none_nota_media2()
 	*/
 	media		= none_nota_media();
 	nota_minima = 7;
-	
+
 	if (media >= nota_minima)
 		show_message("Parabens voce foi aprovado!!!");
 	else
 		show_message("Voce falhou com sucesso!!!");
+}
+
+function	none_altura()
+{
+	/*
+		Modulo 5/36
+		
+		Pegar a altura da pessoa
+		Se a pessoa for maior que 175 falar que ela eh alta
+		senao falar que ela eh baixa
+	*/
+	height				= get_integer("Digite sua altura(cm): ", 0);
+	altura_de_corte		= 175;
+	
+	if (height >= altura_de_corte)
+		show_message("Voce eh alto(a) em!!!");
+	else
+		show_message("Haha baixinho ;)");
 }
