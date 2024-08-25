@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function	atividade1()
+function	none_historia()
 {
 	//Modulo 5/5 - Criar uma história com pelo menos 5 show_message()
 	//Essas mensagens aparecem antes do jogo abrir
@@ -16,7 +16,7 @@ function	atividade1()
 	show_message_async("Hi, can see you now, even if is still dark in this room :3");
 }
 
-function	atividade2()
+function	none_exibir_mensagens()
 {
 	//Modulo 5/7 - Falar em mensagens separadas: Nome, idade, altura, estado
 	show_message("Jonnas");
@@ -26,7 +26,7 @@ function	atividade2()
 	show_message("São Paulo - Sp");
 }
 
-function	atividade3()
+function	none_variaveis()
 {
 	//Modulo 5/9 - O mesmo que a atv 2, mas usando variaveis
 	//Definindo variaveis
@@ -46,7 +46,7 @@ function	atividade3()
 	show_message(final_message);
 }
 
-function	atividade4()
+function	none_is_boy()
 {
 	//Modulo 5/15 - criar variavel perguntando se voce eh menino(Praticar uso de variaveis booleanas)
 	show_message("Uhmm...Hi, just a quick question, ok?");
@@ -58,7 +58,7 @@ function	atividade4()
 		show_message("Hey, you're a girl!!!");
 }
 
-function	atividade5()
+function	none_exibir_dados()
 {
 	/*
 		Modulo 5/17
@@ -76,7 +76,7 @@ function	atividade5()
 	show_message("Hi " + name + " you're " + age + " live in " + state + " you're mail is " + mail);
 }
 
-function	atividade6()
+function	none_get_str_int()
 {
 	/*
 		Modulo 5/19
@@ -93,7 +93,7 @@ function	atividade6()
 	show_message("Name: " + name + "\nAge: " + string(age));
 }
 
-function	atividade7()
+function	none_operadores_aritmeticos()
 {
 	/*
 		Modulo 5/22
@@ -119,7 +119,7 @@ function	atividade7()
 					+ "\nMod: " + string(my_mod));
 }
 
-function	atividade8()
+function	none_contas()
 {
 	/*
 		Modulo 5/23
@@ -147,7 +147,7 @@ function	atividade8()
 	show_message("Apos pagar suas contas voce vai ficar com R$" + string(sobra));
 }
 
-function	atividade9_nota_media()
+function	none_nota_media()
 {
 	/*
 		Modulo 5/26
@@ -161,6 +161,25 @@ function	atividade9_nota_media()
 	bim2	= get_integer("Digite a nota do segundo bimestre: ", 0);
 	bim3	= get_integer("Digite a nota do terceiro bimestre: ", 0);
 	bim4	= get_integer("Digite a nota do quarto bimestre: ", 0);
+	media	= (bim1 + bim2 + bim3 + bim4) / 4;
 	
-	show_message("Sua media nesse ano fooi de " + string((bim1 + bim2 + bim3 + bim4) / 4));
+	show_message("Sua media nesse ano foi de " + string(media));
+	return (media);
+}
+
+function	none_nota_media2()
+{
+	/*
+		Modulo 5/29
+		
+		Calcular media do aluno
+		Verificar se a media é maior ou igual a media minima para ser aprovado
+	*/
+	media		= none_nota_media();
+	nota_minima = 7;
+	
+	if (media >= nota_minima)
+		show_message("Parabens voce foi aprovado!!!");
+	else
+		show_message("Voce falhou com sucesso!!!");
 }
