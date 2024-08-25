@@ -200,3 +200,32 @@ function	none_altura()
 	else
 		show_message("Haha baixinho ;)");
 }
+
+function	none_idade()
+{
+	/*
+		Modulo 5/39
+		
+		Pegar a idade da pessoa
+		Se for menor que 10 anos retorne que é criança
+		Entre 10 e 21 eh adolecente
+		entre 21 e 50 adulto
+		+50 idoso
+		Utilizar else if
+	*/
+	//Pega os dados
+	idade			= get_integer("Digite sua idade: ", 0);
+	
+	//Verificações
+	if (idade < 10)
+		fase_da_vida = "criança";
+	else if (idade < 21)
+		fase_da_vida	= "adolecente";
+	else if (idade < 50)
+		fase_da_vida	= "adulto";
+	else
+		fase_da_vida	= "idoso";
+
+	//Exibe saida
+	show_message("Voce é " + fase_da_vida);
+}

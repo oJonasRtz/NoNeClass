@@ -12,7 +12,9 @@ none_operadores_aritmeticos();
 none_variaveis();
 none_nota_media();
 none_nota_media2();
+none_altura();
+
 
 */
 
-none_altura();
+none_idade();
