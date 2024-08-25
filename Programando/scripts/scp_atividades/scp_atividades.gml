@@ -114,3 +114,31 @@ function	atividade7()
 	//Exibe resultado
 	show_message("Sum: " + string(sum) + "\nSubtraction: " + string(sub) + "\nDivision: " + string(division) + "\nMultiplication: " + string(mult) + "\nMod: " + string(my_mod));
 }
+
+function	atividade8()
+{
+	/*
+		Modulo 5/23
+		
+		Calcule as contas do mes
+		
+		Despesas - luz, agua, comida, internet
+		Receitas - salario
+	*/
+	//Despesas
+	luz			= get_integer("Conta de luz:", 0);
+	agua		= get_integer("Conta de agua:", 0);
+	comida		= get_integer("Conta de alimentos:", 0);
+	internet	= get_integer("Conta de internet:", 0);
+	despesas	= luz + agua + comida + internet;
+	
+	//Receitas
+	salario = get_integer("Salario:", 0);
+	outros	= get_integer("Outras fonte de renda:", 0);
+	receita = salario + outros;
+	
+	//Sobra
+	sobra = receita - despesas;
+	
+	show_message("Apos pagar suas contas voce vai ficar com " + string(sobra));
+}
