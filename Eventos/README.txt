@@ -1,0 +1,1 @@
+Atividades e estudos do modulo 6 da none class
