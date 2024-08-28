@@ -41,6 +41,10 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"altura","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":5.0,"rangeMin":1.0,"value":"1","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"nome","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Bunny","varType":2,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"angulo","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":1.0,"rangeMin":-1.0,"value":"1","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sobrenome","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Witch","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"rua","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Castor Castro","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"numero_da_casa","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"15","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"bairro","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Vila Minha Nossa, Nossa, Nossa!!!","varType":2,},
   ],
   "solid": false,
   "spriteId": {

@@ -11,8 +11,8 @@
 	Quando segurar a seta esquerda vai girar para esquerda e ir naquela direção tambem
 */
 
-direction	= esquerda;
-image_angle += 1;
+//direction	= esquerda;
+//image_angle++;
 
 #endregion
 
