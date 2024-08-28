@@ -7,7 +7,7 @@
 	Fazer o personagem andar para as 4 direções usando as setas
 */
 
-y -= move_speed;  
+//y -= move_speed;  
 
 #endregion
 

@@ -7,7 +7,6 @@
 
 #region Variaveis
 
-frames		= 0;
 /*
 	Modulo 6/11
 	
@@ -15,13 +14,15 @@ frames		= 0;
 	Dar um nome diferente para cada instancia
 	Quando clicar com o botao direito na instancia mostrar o nome da instancia
 	
-	Por isso o nome está comentado, essa variavel foi criada nas primeiras aulas
+	Por isso o nome está comentado, essa variavel foi criada nas primeiras aulas e não quis apagar
 */
 //nome		= "bunny"
 move_speed	= 5;
+frames		= 0;
 
 #endregion
 
+//Primeiro uso da Variable Definition
 image_yscale = altura;
 image_xscale = altura;
 
