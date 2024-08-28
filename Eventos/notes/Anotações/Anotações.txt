@@ -1,0 +1,4 @@
+
+Variaveis de controle/flags
+	- Variaveis booleanas
+	- Controlam se algo deve ou não acontecer

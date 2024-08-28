@@ -11,7 +11,7 @@
 	Quando segurar a seta esquerda vai girar para esquerda e ir naquela direção tambem
 */
 
-//speed = 0;
+speed = 0;
 
 #endregion
 

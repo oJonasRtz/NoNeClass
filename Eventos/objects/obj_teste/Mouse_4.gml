@@ -50,7 +50,7 @@
 		nome do bairro
 	Exibir todas de uma vez usando uma variavel temporaria
 	
-	Obs: As variaveis foram criada no Variable Definition
+	Obs: As variaveis foram criadas no Variable Definition
 */
 
 var	_endereco	= "Rua " + rua + ", Nº " + string(numero_da_casa) + ", Bairro " + bairro;

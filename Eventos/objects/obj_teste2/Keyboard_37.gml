@@ -11,8 +11,17 @@
 	Quando segurar a seta esquerda vai girar para esquerda e ir naquela direção tambem
 */
 
-//direction	= esquerda;
-//image_angle++;
+/*
+	Modulo 6/21
+	
+	Criar uma variavel de controle
+	O obj só pode girar se a variavel for true
+	
+	variavel = flag_can_move
+*/
+
+direction	= esquerda  * flag_can_move;
+image_angle += 1  * flag_can_move;
 
 #endregion
 

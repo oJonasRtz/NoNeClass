@@ -1,0 +1,51 @@
+
+Norma que estou seguindo para organizar o codigo
+
+1 - variaveis
+	- O sinal de '=' deve ser alinhado em todas as variaveis
+	- Todas as variaveis devem ser declaradas juntas(na medida do possivel)
+	- Deve pular uma linha após as declarações de variavel
+	- Nomes devem ser em snake_case
+	- Variaveis temporarias(tipo 'var') devem começar com underline antes do nome
+	
+	var	_temp	= 5;
+	
+	value_a		= 10;
+	value_b		= 20;
+	
+	show_message(string(a + b));
+
+2 - Operações
+	- Deve haver um espaço entre os operadores aritmeticos e os valores
+	
+	a = 1 + 2;
+
+3 - Quebras de linha
+	- Deve ter duas linhas vazias no final de qualquer arquivo com codigo
+	- Deve haver uma linha vazia entre um comentario feito com '/**/' e o proximo codigo
+	- Comentarios feitos com '//' devem estar na linha a cima do respectivo codigo, sem linhas vazias entre eles
+	- #regions devem ter a primeira e ultima linha vazias
+	- A primeira linha do Codigo deve haver um @description ou estar vazia
+	- Operações diferentes devem ser separadas por #regions
+	- Codigos com intuitos diferentes dentro da mesma region devem ser separados por uma linha vazia
+	
+	/*
+		Exemplo
+	*/
+	
+	#region	Exemplo
+	
+	//variavel
+	move_speed	= 5;
+	direction	= -1;
+	
+	//codigo em execução
+	x += move_speed;
+	
+	//Trecho com função diferente da de cima
+	if (direction != 0)
+		image_xscale = direction;
+	
+	#endregion
+	
+	

@@ -11,7 +11,16 @@
 	Quando segurar a seta esquerda vai girar para esquerda e ir naquela direção tambem
 */
 
-//speed = move_speed;
+/*
+	Modulo 6/21
+	
+	Criar uma variavel de controle
+	O obj só pode girar se a variavel for true
+	
+	variavel = flag_can_move
+*/
+
+speed = move_speed * flag_can_move;
 
 #endregion
 
