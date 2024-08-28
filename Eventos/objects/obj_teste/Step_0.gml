@@ -18,3 +18,14 @@
 
 #endregion
 
+#region Orientação
+
+//Faz o sprite ficar rodando
+image_angle += angulo;
+
+//Aponta uma direção e velocidade
+//speed = 2;
+//direction = 45;
+
+#endregion
+

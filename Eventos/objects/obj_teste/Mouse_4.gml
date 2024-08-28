@@ -22,7 +22,7 @@
 	Quando clicar com o botao direito na instancia mostrar o nome da instancia
 */
 
-show_message("Meu nome é " + nome);
+//show_message("Meu nome é " + nome);
 
 #endregion
 

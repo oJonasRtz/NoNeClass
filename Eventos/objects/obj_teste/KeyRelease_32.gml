@@ -8,7 +8,7 @@
 	Quando soltar espaço a speed do obj vai ser 0
 */
 
-speed = 0;
+//speed = 0;
 
 #endregion
 
