@@ -13,8 +13,6 @@
 
 //Variaveis
 move_speed	= 2;
-direita		= 0;
-esquerda	= 180;
 
 #endregion
 

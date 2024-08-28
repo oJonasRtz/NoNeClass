@@ -20,8 +20,10 @@
 	variavel = flag_can_move
 */
 
-direction	= esquerda  * flag_can_move;
-image_angle += 1  * flag_can_move;
+var _control		= 1 * flag_can_move;
+
+direction	+= _control;
+image_angle += _control;
 
 #endregion
 

@@ -20,7 +20,9 @@
 	variavel = flag_can_move
 */
 
-speed = move_speed * flag_can_move;
+var _control		= 1 * flag_can_move;
+
+speed = move_speed * _control;
 
 #endregion
 
