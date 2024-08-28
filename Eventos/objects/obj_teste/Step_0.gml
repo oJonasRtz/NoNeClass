@@ -4,6 +4,7 @@
 //show_message(++frames);
 
 #region Atividade 6/4
+
 /*
 		Modulo 6/4
 		
@@ -12,6 +13,7 @@
 		Quando o mouse estiver em cima do obj mostar o nome em letras maiusculas
 		Quando o mais sair voltar para letras minusculas
 */
+
 //show_debug_message(nome);
 
 #endregion
