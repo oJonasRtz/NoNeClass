@@ -22,3 +22,5 @@ global.texto  = "";
 
 #endregion
 
+global.tempo = 0;
+

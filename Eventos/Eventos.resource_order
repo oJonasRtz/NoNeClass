@@ -18,7 +18,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_teste2","order":1,"path":"objects/obj_teste2/obj_teste2.yy",},
+    {"name":"obj_teste3","order":3,"path":"objects/obj_teste3/obj_teste3.yy",},
+    {"name":"spr_teste2","order":1,"path":"sprites/spr_teste2/spr_teste2.yy",},
     {"name":"Anotações","order":1,"path":"notes/Anotações/Anotações.yy",},
+    {"name":"rm_debug2","order":1,"path":"rooms/rm_debug2/rm_debug2.yy",},
     {"name":"obj_pontos","order":2,"path":"objects/obj_pontos/obj_pontos.yy",},
   ],
 }

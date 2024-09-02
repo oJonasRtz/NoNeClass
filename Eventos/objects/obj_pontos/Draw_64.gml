@@ -21,3 +21,5 @@ draw_text(32, 80, "Instancia atual: " + string(global.texto));
 
 #endregion
 
+draw_text(32, 100, "Tempo: " + string(global.tempo));
+

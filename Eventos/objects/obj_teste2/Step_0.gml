@@ -59,5 +59,5 @@ if (_saidas_x || _saidas_y)
 #endregion
 
 //Verificando o contador do alarm
-show_debug_message(alarm[0]);
+//show_debug_message(alarm[0]);
 

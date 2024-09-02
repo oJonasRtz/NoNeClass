@@ -36,15 +36,19 @@
   "resources": [
     {"id":{"name":"scp_init","path":"scripts/scp_init/scp_init.yy",},},
     {"id":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},},
+    {"id":{"name":"obj_teste3","path":"objects/obj_teste3/obj_teste3.yy",},},
+    {"id":{"name":"spr_teste2","path":"sprites/spr_teste2/spr_teste2.yy",},},
     {"id":{"name":"spr_teste","path":"sprites/spr_teste/spr_teste.yy",},},
     {"id":{"name":"Anotações","path":"notes/Anotações/Anotações.yy",},},
     {"id":{"name":"obj_teste","path":"objects/obj_teste/obj_teste.yy",},},
+    {"id":{"name":"rm_debug2","path":"rooms/rm_debug2/rm_debug2.yy",},},
     {"id":{"name":"obj_pontos","path":"objects/obj_pontos/obj_pontos.yy",},},
     {"id":{"name":"fnt_font","path":"fonts/fnt_font/fnt_font.yy",},},
-    {"id":{"name":"rm_debug_room","path":"rooms/rm_debug_room/rm_debug_room.yy",},},
+    {"id":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_debug_room","path":"rooms/rm_debug_room/rm_debug_room.yy",},},
+    {"roomId":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
+    {"roomId":{"name":"rm_debug2","path":"rooms/rm_debug2/rm_debug2.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

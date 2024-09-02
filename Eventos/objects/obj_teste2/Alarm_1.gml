@@ -9,7 +9,7 @@
 	Fazer com que o obj_teste2 troque de nome depois de 2 seg
 */
 
-nome = "Atroid destroyer";
+nome = "Astroid destroyer";
 
 #endregion
 
