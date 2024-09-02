@@ -8,12 +8,12 @@ draw_self();
 /*
 	Modulo 6/45
 	
-	Faça o boão mostrar qual o destino dele
+	Faça o botão mostrar qual o destino dele
 */
 
 var _room = room == rm_debug ? "rm_debug2" : "rm_debug";
 
-draw_text(x - 30, y + 60, "Vamos para " + _room);
+draw_text(x - 60, y + 60, "Vamos para " + _room);
 
 #endregion
 
