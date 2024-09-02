@@ -16,3 +16,20 @@ move_speed	= 2;
 
 #endregion
 
+//Ativando alarm 0
+//60 = 1 seg(no caso desse jogo que está setado a 60 fps)
+//alarm[0] = 60;
+
+#region Atividade 6/41
+
+/*
+	Modulo 6/41
+	
+	Fazer com que o obj_teste2 troque de nome depois de 2 seg
+*/
+
+//Ativando alarm para 2 seg
+alarm[1] = 60 * 2;
+
+#endregion
+

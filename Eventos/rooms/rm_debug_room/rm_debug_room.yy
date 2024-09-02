@@ -7,26 +7,14 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_1ADCF8D","path":"rooms/rm_debug_room/rm_debug_room.yy",},
-    {"name":"inst_71367CB8","path":"rooms/rm_debug_room/rm_debug_room.yy",},
     {"name":"inst_48A6CC49","path":"rooms/rm_debug_room/rm_debug_room.yy",},
-    {"name":"inst_9A6F492","path":"rooms/rm_debug_room/rm_debug_room.yy",},
     {"name":"inst_7CB56666","path":"rooms/rm_debug_room/rm_debug_room.yy",},
     {"name":"inst_CEE7CA7","path":"rooms/rm_debug_room/rm_debug_room.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1ADCF8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},"propertyId":{"name":"nome","path":"objects/obj_teste2/obj_teste2.yy",},"value":"Bon Bon",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":288.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71367CB8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},"propertyId":{"name":"nome","path":"objects/obj_teste2/obj_teste2.yy",},"value":"It's me",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":448.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48A6CC49","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":608.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_9A6F492","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},"propertyId":{"name":"nome","path":"objects/obj_teste2/obj_teste2.yy",},"value":"Astroid Destroyer",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":448.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48A6CC49","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CB56666","colour":4280549159,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_teste","path":"objects/obj_teste/obj_teste.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CEE7CA7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pontos","path":"objects/obj_pontos/obj_pontos.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

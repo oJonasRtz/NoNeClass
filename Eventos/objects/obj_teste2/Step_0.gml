@@ -42,12 +42,14 @@ else
 /*
 	Modulo 6/38
 	
-	Fazer o obj voltar para o centro da room quando ele sair por qualque lateral
+	Fazer o obj voltar para o centro da room quando ele sair por qualquer lateral
 */
 
+//Verifica a posição atual
 var _saidas_x = x >= room_width || x <= 0;
 var _saidas_y = y >= room_height || y <= 0;
 
+//Move para o centro da room
 if (_saidas_x || _saidas_y)
 {
 	x = room_width / 2;
@@ -55,4 +57,7 @@ if (_saidas_x || _saidas_y)
 }
 
 #endregion
+
+//Verificando o contador do alarm
+show_debug_message(alarm[0]);
 
