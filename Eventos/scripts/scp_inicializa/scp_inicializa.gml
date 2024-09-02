@@ -4,5 +4,5 @@
 global.pontos = 0;
 //Definindo qual instancia pode se mover atualmente
 //noone == no one/ninguem == 0
-global.atual  = inst_9A6F492;
+global.atual  = noone;
 

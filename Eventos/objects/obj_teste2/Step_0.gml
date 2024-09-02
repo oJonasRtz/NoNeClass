@@ -16,14 +16,12 @@ show_debug_message(global.pontos);
 	Quando não é o atual volta a ser branco novamente
 */
 
+//Caso eu seja o atual eu posso me mover
 flag_can_move = global.atual == id;
 
 //Checando se sou a instancia atual
 if (global.atual == id)
-{
 	image_blend		= c_red;
-	flag_can_move	= 1;
-}
 else
 	image_blend		= c_white;
 
