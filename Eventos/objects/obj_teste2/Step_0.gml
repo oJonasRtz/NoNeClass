@@ -37,3 +37,22 @@ else
 
 #endregion
 
+#region Atividade 6/38
+
+/*
+	Modulo 6/38
+	
+	Fazer o obj voltar para o centro da room quando ele sair por qualque lateral
+*/
+
+var _saidas_x = x >= room_width || x <= 0;
+var _saidas_y = y >= room_height || y <= 0;
+
+if (_saidas_x || _saidas_y)
+{
+	x = room_width / 2;
+	y = room_height / 2;
+}
+
+#endregion
+
