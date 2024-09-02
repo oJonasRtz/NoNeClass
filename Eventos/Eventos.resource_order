@@ -19,5 +19,6 @@
   "ResourceOrderSettings": [
     {"name":"obj_teste2","order":1,"path":"objects/obj_teste2/obj_teste2.yy",},
     {"name":"Anotações","order":1,"path":"notes/Anotações/Anotações.yy",},
+    {"name":"obj_pontos","order":2,"path":"objects/obj_pontos/obj_pontos.yy",},
   ],
 }

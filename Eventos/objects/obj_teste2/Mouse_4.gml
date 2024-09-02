@@ -32,7 +32,29 @@
 	Quando não é o atual volta a ser branco novamente
 */
 
-global.atual = id;
+if (global.atual == id)
+	global.atual = noone;
+else
+	global.atual = id;
+
+#endregion
+
+#region Atividade 6/35
+
+/*
+	Modulo 6/35
+	
+	Criar uma variavel global chamada de global.texto
+	Vai iniciar sem valor
+	Ela vai me dar o nome da atual instancia que pode se mover
+	Exibir o nome usando o obj pontos
+	Escreva o nome de cada instancia nela
+*/
+
+//Uso ternario para evitar erro caso eu selecione uma instancia e dps desselecionar
+var _inst_atual = global.atual != noone ? global.atual.nome : "";
+
+global.texto  = _inst_atual;
 
 #endregion
 

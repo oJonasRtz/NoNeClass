@@ -34,12 +34,13 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"scp_inicializa","path":"scripts/scp_inicializa/scp_inicializa.yy",},},
+    {"id":{"name":"scp_init","path":"scripts/scp_init/scp_init.yy",},},
     {"id":{"name":"obj_teste2","path":"objects/obj_teste2/obj_teste2.yy",},},
     {"id":{"name":"spr_teste","path":"sprites/spr_teste/spr_teste.yy",},},
     {"id":{"name":"Anotações","path":"notes/Anotações/Anotações.yy",},},
     {"id":{"name":"obj_teste","path":"objects/obj_teste/obj_teste.yy",},},
-    {"id":{"name":"ft_font","path":"fonts/ft_font/ft_font.yy",},},
+    {"id":{"name":"obj_pontos","path":"objects/obj_pontos/obj_pontos.yy",},},
+    {"id":{"name":"fnt_font","path":"fonts/fnt_font/fnt_font.yy",},},
     {"id":{"name":"rm_debug_room","path":"rooms/rm_debug_room/rm_debug_room.yy",},},
   ],
   "RoomOrderNodes": [

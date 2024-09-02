@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scp_inicializa",
+  "name": "scp_init",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
