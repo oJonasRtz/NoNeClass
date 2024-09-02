@@ -17,9 +17,9 @@ show_debug_message(global.pontos);
 */
 
 //Caso eu seja o atual eu posso me mover
-flag_can_move = global.atual == id;
+flag_can_move = (global.atual == id);
 
-//Checando se sou a instancia atual
+//Alterando a cor do sprite
 if (global.atual == id)
 	image_blend		= c_red;
 else
