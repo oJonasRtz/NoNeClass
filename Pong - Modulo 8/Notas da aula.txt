@@ -1,0 +1,19 @@
+---Considerações---
+	Notas da aula
+
+-Telas, elementos e fluxo do jogo
+	Quantas telas existem no jogo/
+	O que são essas telas?
+	Que elementos compõe essas telas?
+	Qual o fluxo do jogo?
+
+-Objetivo, obstaculos e regras
+	Qual o objetivo do jogo?
+	Que obstaculos estão impedindo o jogador de realizar o objetivo?
+	Que regras estão definindo como o jogo deve ser jogado?
+
+-Gameplay (experiencia do jogo)
+	Como é o gameplay do jogo?
+	Como o jogo é jogado?
+	Explique como o jogo é jogado (Como ele deveria ser jogado)
+

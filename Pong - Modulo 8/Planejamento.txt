@@ -1,0 +1,51 @@
+--Planejamento--
+
+Telas
+    Quantar telas existem?
+        R:2
+    O que são essas telas?
+        O menu
+        A arena (Que ocorre o gameplay)
+Elementos
+    Que elementos compõe a tela(Menu)?
+        A arena de fundo
+        Botoes: inicio, 2 jogadores, sair
+    Que elementos compõe a tela(arena)?
+        As raquetes
+        A bola
+        A arena de fundo
+        Marcador de pontos
+Fluxo/Regras
+    1 Menu inicial
+        3 botões
+            jogar 
+                Inicia o jogo com uma IA na segunda raquete
+            2 jogadores 
+                Inicia o jogo. As duas raquetes são controlaveis pelo teclado
+            sair 
+                Fecha o jogo
+    2 Arena
+        1 jogador
+            O jogador controla a raquete da esquerda com:
+                W-Faz a raquete subir
+                S-Faz a raquete descer
+        2 jogadores
+            O jogador um se mantem igual o topico anterior
+            O jogador 2 controla a raquete da direita com:
+                Setinhas up e down
+        Bola
+            Inicia a partida se movendo para uma posição aleatoria
+            Ela é rebatida pelas raquetes e pelas paredes
+            Quando é rebatida ganha velocidade
+            Sempre será criada no inicio da arena
+        Gol
+            Fica atraz das raquetes
+            Quando a bola bate no gol marca ponto p/ jogador do outro lado
+                e destroi a bola
+Objetivo
+    O jogador que marcar 5 pontos vence
+Obstaculos
+    O outro jogador ou a IA
+    A velocidade da bola
+    A aleatoriedade de para onde a bola pode ir
+        
