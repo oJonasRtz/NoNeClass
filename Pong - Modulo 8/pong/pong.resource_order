@@ -21,6 +21,7 @@
     {"name":"obj_ball","order":2,"path":"objects/obj_ball/obj_ball.yy",},
     {"name":"obj_odin","order":5,"path":"objects/obj_odin/obj_odin.yy",},
     {"name":"obj_racket_two","order":7,"path":"objects/obj_racket_two/obj_racket_two.yy",},
+    {"name":"scp_global_variables","order":2,"path":"scripts/scp_global_variables/scp_global_variables.yy",},
     {"name":"scp_keys","order":1,"path":"scripts/scp_keys/scp_keys.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"obj_goal","order":4,"path":"objects/obj_goal/obj_goal.yy",},
@@ -31,5 +32,6 @@
     {"name":"spr_face","order":5,"path":"sprites/spr_face/spr_face.yy",},
     {"name":"spr_ball","order":2,"path":"sprites/spr_ball/spr_ball.yy",},
     {"name":"spr_goal","order":3,"path":"sprites/spr_goal/spr_goal.yy",},
+    {"name":"spr_button","order":7,"path":"sprites/spr_button/spr_button.yy",},
   ],
 }

@@ -40,6 +40,7 @@
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},
     {"id":{"name":"obj_odin","path":"objects/obj_odin/obj_odin.yy",},},
     {"id":{"name":"obj_racket_two","path":"objects/obj_racket_two/obj_racket_two.yy",},},
+    {"id":{"name":"scp_global_variables","path":"scripts/scp_global_variables/scp_global_variables.yy",},},
     {"id":{"name":"scp_keys","path":"scripts/scp_keys/scp_keys.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"rm_arena","path":"rooms/rm_arena/rm_arena.yy",},},
   ],
   "RoomOrderNodes": [
