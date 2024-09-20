@@ -26,6 +26,7 @@
     {"name":"obj_goal","order":4,"path":"objects/obj_goal/obj_goal.yy",},
     {"name":"obj_aux","order":6,"path":"objects/obj_aux/obj_aux.yy",},
     {"name":"spr_eyes","order":6,"path":"sprites/spr_eyes/spr_eyes.yy",},
+    {"name":"snd_ball_bounce","order":1,"path":"sounds/snd_ball_bounce/snd_ball_bounce.yy",},
     {"name":"spr_arena","order":4,"path":"sprites/spr_arena/spr_arena.yy",},
     {"name":"spr_face","order":5,"path":"sprites/spr_face/spr_face.yy",},
     {"name":"spr_ball","order":2,"path":"sprites/spr_ball/spr_ball.yy",},

@@ -46,6 +46,8 @@
     {"id":{"name":"obj_racket_one","path":"objects/obj_racket_one/obj_racket_one.yy",},},
     {"id":{"name":"obj_aux","path":"objects/obj_aux/obj_aux.yy",},},
     {"id":{"name":"spr_eyes","path":"sprites/spr_eyes/spr_eyes.yy",},},
+    {"id":{"name":"snd_ball_bounce","path":"sounds/snd_ball_bounce/snd_ball_bounce.yy",},},
+    {"id":{"name":"snd_background_sound","path":"sounds/snd_background_sound/snd_background_sound.yy",},},
     {"id":{"name":"spr_arena","path":"sprites/spr_arena/spr_arena.yy",},},
     {"id":{"name":"spr_face","path":"sprites/spr_face/spr_face.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
